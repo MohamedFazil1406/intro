@@ -106,24 +106,11 @@ The need for specialized attention in specific areas might arise as your project
 
 ### Recruiting Maintainers & Team Members
 
-It is certainly possible that there's no contributor with the right skills and passion to take on a specific role. In those cases, you might need to look outside your existing community. Reach out to other projects or communities that might have individuals with the necessary expertise.
+One way to identify potential maintainers is to explore GitHub repositories that use a similar technology stack. GitHub's **Insights → Contributors** page, pull request history, and issue discussions can help you identify people who consistently make high-quality contributions and actively participate in the community.
 
-One way to look for potential maintainers is to create a [Repository Insight Page](https://opensauced.pizza/docs/features/repo-insights/) with projects with a similar tech stack. This will allow you to see who contributes to those projects regularly, their most used languages, and more. From there, you can narrow your search to individuals who are already familiar with your project's stack and have a proven track record of contributions by adding them to a [Contributor Insight Page](https://opensauced.pizza/docs/features/contributor-insights/). Contributor Insights allows you to see more about where they're contributing, their timezone, activity level, and more.
+To learn more about a contributor's broader open source experience, you can also use tools such as **Contributor.info**, which provide an overview of public contributions across repositories. Combining GitHub's native repository insights with a contributor's public activity can help you identify experienced community members who may be a good fit for your project.
 
-#### Creating a Repository and a Contributor Insight Page
 
-To connect and track your repositories, click the "+" next to "Insights" in the sidebar, then select "New Repository Insight." You will be redirected to a page where you can create your new Repository Insight Page.
-
-There are two ways to add repositories to your Repository Insight Page:
-
-1. **Sync GitHub organization**. Syncing your GitHub organization is a good idea if you want a unified view of your project activities and the list of contributors to your project.
-2. **Add individual repositories**. Adding individual repositories is a good idea if you want to look at similar repositories to recruit team members.
-
-![Sync team GIF](../_assets/gifs/team-sync-insights.gif)
-
-From there, you can create a list of contributors you're interested in learning more about or connecting with by selecting them from the Contributors dashboard and creating a new Contributor Insight Page.
-
-![Contributor insights list](../_assets/images/contributors-insights.png)
 
 ## Adding Team Members
 
@@ -146,9 +133,18 @@ One way to onboard your new team members is to have clear guidelines and include
 
 ## Keeping Track of Your Team
 
-As your team grows, it's important to keep track of your team's participation and contributions. Depending on the number of people on your team, consider creating a [Contributor Insight Page](https://opensauced.pizza/docs/features/contributor-insights/) to keep track of your team's contributions. This will allow you to see who is contributing to your project and how often, and it will help you identify when it's time to remove someone from your team.
+As your team grows, it's important to regularly review participation and contributions to ensure responsibilities remain aligned with each team member's activity.
 
-![Team sync GIF](../_assets/gifs/team-sync.gif)
+GitHub provides several built-in tools that can help you monitor contributor engagement:
+
+- **Insights → Contributors** to review contribution history.
+- **Insights → Pulse** to monitor recent repository activity.
+- Pull request history to evaluate code reviews and collaboration.
+- Issues and Discussions to identify contributors who actively support the community.
+
+You can also use GitHub Actions to automate routine maintainer tasks such as labeling pull requests, welcoming first-time contributors, and managing stale issues.
+
+For a broader view of a contributor's public open source activity across repositories, tools like Contributor.info can complement GitHub's native insights.
 
 ## Saying Farewell: Handling Team Departures
 
